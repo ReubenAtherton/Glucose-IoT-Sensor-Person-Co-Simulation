@@ -2,11 +2,11 @@
 
 This project simulates the behaviour of a glucose sensing IoT device. Data is created by initialising the sensor using the command:
 
-'./program --sensorOnly --sampleTime VALUE --numberOfSimulatedSamples VALUE --PrecisionBits VALUE' 
+    ./program --sensorOnly --sampleTime VALUE --numberOfSimulatedSamples VALUE --PrecisionBits VALUE
 
 where VALUE is the the your integer entry for that parameter. This must be done at different times of the day as each data point is time stamped, improving the realness of simulation. A person is then created using the command:
 
-'./program --personOnly VALUE' 
+    ./program --personOnly VALUE
 
 where VALUE is the age entry for the person being created. 
 
